@@ -3,8 +3,8 @@
 body{
   background-color: #E7EAE4;
   font-family: 'Cormorant', serif;
-  padding-left: 80px;
-  padding-right: 80px;
+  /* padding-left: 80px;
+  padding-right: 80px; */
 }
 .nav-item{
   border-right: 1px solid rgb(92, 92, 92);
@@ -29,7 +29,13 @@ body{
   color: #909C76;
   transition-duration: .5s;
 }
-
+.password{
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../src/auth-bg-01.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 
 
@@ -37,10 +43,10 @@ body{
 
 /* Media queries */
 @media screen and (max-width: 450px) {
-  body{
+  /* body{
     padding-left: 20px;
     padding-right: 20px;
-  }
+  } */
   .nav-item{
     border-right: none;
   }

@@ -1,7 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 export default function Navbar() {
     return (
-        <div>
+        <div className='px-3 px-md-5'>
             <nav className="navbar navbar-expand-lg mt-3">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#"><h2 className='fw-bold'>T&A</h2></a>

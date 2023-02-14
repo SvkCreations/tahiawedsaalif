@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+  background-color: #E7EAE4;
+  font-family: 'Cormorant', serif;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.nav-item{
+  border-right: 1px solid rgb(92, 92, 92);
+}
+.last{
+  border-right: none;
+}
+.nav-link{
+  font-size: 16px;
+  font-weight: 600;
+}
+.primary-btn{
+  background-color: #909C76;
+  border: 1px solid #909C76;
+  color: white;
+  font-size: 16px;
+  border-radius: 20px;
+}
+.primary-btn:hover{
+  background: none;
+  border: 1px solid #909C76;
+  color: #909C76;
+  transition-duration: .5s;
+}
+
+
+
+
+
+
+/* Media queries */
+@media screen and (max-width: 450px) {
+  body{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .nav-item{
+    border-right: none;
+  }
+}

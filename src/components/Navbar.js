@@ -22,7 +22,10 @@ export default function Navbar() {
                                 <a className="nav-link py-2 p-md-0" href="#">TIMELINE</a>
                             </li>
                             <li className="nav-item px-md-4 py-0">
-                                <a className="nav-link py-2 p-md-0" href="#">HOTEL INFORMATION</a>
+                                <a className="nav-link py-2 p-md-0" href="#">VENUE</a>
+                            </li>
+                            <li className="nav-item px-md-4 py-0">
+                                <a className="nav-link py-2 p-md-0" href="#">WHAT TO THINK</a>
                             </li>
                             <li className="nav-item last px-md-4">
                                 <a className="nav-link py-2 p-md-0" href="#">DRESSS CODE</a>
@@ -40,6 +43,7 @@ export default function Navbar() {
                     </div>
                 </div>
             </nav>
+            <hr/>
         </div>
     )
 }

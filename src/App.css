@@ -5,6 +5,10 @@ body{
   font-family: 'Cormorant', serif;
   /* padding-left: 80px;
   padding-right: 80px; */
+  
+}
+::-webkit-scrollbar{
+  width: 0;
 }
 .nav-item{
   border-right: 1px solid rgb(92, 92, 92);
@@ -36,6 +40,12 @@ body{
   background-size: cover;
   background-position: center;
 }
+.hero-img{
+  height: 800px;
+  background-image: url('../src/home-bg-01.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 
 
@@ -49,5 +59,8 @@ body{
   } */
   .nav-item{
     border-right: none;
+  }
+  .hero-img{
+    height: 400px;
   }
 }

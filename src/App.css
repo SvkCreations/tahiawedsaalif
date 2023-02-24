@@ -3,8 +3,8 @@
 body{
   background-color: #E7EAE4;
   font-family: 'Cormorant', serif;
-  /* padding-left: 80px;
-  padding-right: 80px; */
+  scroll-behavior: smooth;
+  overflow-x: hidden;
   
 }
 ::-webkit-scrollbar{
@@ -59,6 +59,35 @@ body{
   background-image: url('../src/home-bg-01.jpg');
   background-size: cover;
   background-position: center;
+}
+.name{
+  animation: scale 2.5s ease;
+}
+
+.sub-head{
+  animation: fadeIn 5s ease;
+}
+@keyframes scale {
+  0%{
+    transform: scale(0);
+    opacity: 0;
+  }
+  52%{
+    transform:scale(1.18);
+    opacity: .75;
+  }
+  100%{
+    transform:scale(1);
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
 
 

@@ -16,13 +16,13 @@ export default function Navbar() {
                                 <a className="nav-link py-2 p-md-0 active" aria-current="page" href="#">WELCOME</a>
                             </li>
                             <li className="nav-item px-md-4">
-                                <a className="nav-link py-2 p-md-0" href="#">OUR STORY</a>
+                                <a className="nav-link p-md-0" href="#">OUR STORY</a>
                             </li>
                             <li className="nav-item px-md-4">
                                 <a className="nav-link py-2 p-md-0" href="#">TIMELINE</a>
                             </li>
                             <li className="nav-item px-md-4 py-0">
-                                <a className="nav-link py-2 p-md-0" href="#">VENUE</a>
+                                <a className="nav-link py-2 p-md-0" href="#">VENUES</a>
                             </li>
                             <li className="nav-item px-md-4 py-0">
                                 <a className="nav-link py-2 p-md-0" href="#">EXPLORE</a>

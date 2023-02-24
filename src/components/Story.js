@@ -3,7 +3,7 @@ import img from '../story-bg.jpg'
 
 export default function Story() {
     return (
-        <div className='px-3 px-md-5 my-5 py-5'>
+        <div className='px-3 px-md-5 mx-md-4 my-5 py-5'>
             <div className="row d-flex mx-1 align-items-center">
                 <div className="col-3 col-md-4 me-auto" style={{ height: ".1px", backgroundColor: '#000', opacity: '.2' }}></div>
                 <div className="col-auto me-auto">
@@ -12,7 +12,7 @@ export default function Story() {
                 <div className="col-3 col-md-4" style={{ height: ".1px", backgroundColor: '#000', opacity: '.2' }}></div>
             </div>
             <div className="row flex-lg-row align-items-center g-5 py-5 my-2">
-                <div className="col-10 col-sm-8 col-lg-6">
+                <div className="col-12 col-sm-8 col-lg-6">
                     <img src={img} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy"/>
                 </div>
                 <div className="col-lg-6">

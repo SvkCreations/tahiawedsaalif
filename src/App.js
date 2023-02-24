@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import Password from './components/Password';
 import Main from './components/Main';
 import Story from './components/Story';
+import Timeline from './components/Timeline';
+import ScrollTop from './components/ScrollTop';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
               <Navbar />
               <Main />
               <Story/>
+              <Timeline/>
+              <ScrollTop/>
             </>
           }></Route>
         </Routes>

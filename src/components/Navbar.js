@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 export default function Navbar() {
     return (
-        <div className='px-3 px-md-5'>
+        <div className='px-3 px-md-5 mx-md-4'>
             <nav className="navbar navbar-expand-lg mt-3">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#"><h2 className='fw-bold'>T&A</h2></a>
@@ -25,7 +25,7 @@ export default function Navbar() {
                                 <a className="nav-link py-2 p-md-0" href="#">VENUE</a>
                             </li>
                             <li className="nav-item px-md-4 py-0">
-                                <a className="nav-link py-2 p-md-0" href="#">WHAT TO THINK</a>
+                                <a className="nav-link py-2 p-md-0" href="#">EXPLORE</a>
                             </li>
                             <li className="nav-item last px-md-4">
                                 <a className="nav-link py-2 p-md-0" href="#">DRESSS CODE</a>

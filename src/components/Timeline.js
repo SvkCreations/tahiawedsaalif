@@ -59,13 +59,12 @@ export default function Timeline() {
                         </div>
                     </div>
 
-                    <p className="lead col-lg-11" data-aos='fade-right' style={{ textAlign: 'justify' }}>A wedding reception is a party usually held after the completion of a marriage ceremony as hospitality for those who have attended the wedding, hence the name reception: the couple receive society, in the form of family and friends, for the first time as a married couple. Hosts provide their choice of food and drink, although a wedding cake is popular.<br></br>Entertaining guests after a wedding ceremony is traditional in most societies, and can last anywhere from half an hour to many hours or even days. Most wedding receptions are made in the evening for dinner; however, the couple may opt for a luncheon, brunch, or even afternoon tea.[1] Ultimately the married couple chooses the details and location of the reception.</p>
+                    <p className="lead col-lg-11" data-aos='fade-right' style={{ textAlign: 'justify' }}>A wedding reception is a party usually held after the completion of a marriage ceremony as hospitality for those who have attended the wedding, hence the name reception: the couple receive society, in the form of family and friends, for the first time as a married couple. Hosts provide their choice of food and drink, although a wedding cake is popular.<br></br>Entertaining guests after a wedding ceremony is traditional in most societies, and can last anywhere from half an hour to many hours or even days. Most wedding receptions are made in the evening for dinner; however, the couple may opt for a luncheon, brunch, or even afternoon tea. Ultimately the married couple chooses the details and location of the reception.</p>
                     <div className="d-grid gap-2 d-md-flex justify-content-md-start mt-4" >
                         <button type="button" className="btn primary-btn btn-lg px-4 me-md-2 col-12 col-md-3">EXPLORE MORE</button>
                     </div>
                 </div>
             </div>
-            <hr />
         </div>
     )
 }

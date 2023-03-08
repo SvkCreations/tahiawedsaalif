@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-// import { Link } from 'react-router-dom';
 export default function Password() {
     const [pwd,setPwd] = useState("")
     const [err, setError] = useState("")

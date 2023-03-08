@@ -1,6 +1,5 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import img from '../story-bg.jpg'
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Aos from 'aos';
 
 export default function Story() {

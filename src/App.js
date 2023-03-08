@@ -6,6 +6,7 @@ import Main from './components/Main';
 import Story from './components/Story';
 import Timeline from './components/Timeline';
 import ScrollTop from './components/ScrollTop';
+import ExploreBrief from './components/ExploreBrief';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Main />
               <Story/>
               <Timeline/>
+              <ExploreBrief/>
               <ScrollTop/>
             </>
           }></Route>

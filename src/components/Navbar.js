@@ -5,7 +5,7 @@ export default function Navbar() {
         <div className='px-3 px-md-5 mx-md-4'>
             <nav className="navbar navbar-expand-lg mt-3">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#"><h2 className='fw-bold'>T&A</h2></a>
+                    <Link className="navbar-brand" to="/welcome"><h2 className='fw-bold'>T&A</h2></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -13,25 +13,25 @@ export default function Navbar() {
                         <div className="me-auto col-5"></div>
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item px-md-4">
-                                <a className="nav-link py-2 p-md-0 active" aria-current="page" href="#">WELCOME</a>
+                                <Link to='/welcome' className="nav-link py-2 p-md-0 active" aria-current="page" href="#">WELCOME</Link>
                             </li>
                             <li className="nav-item px-md-4">
-                                <a className="nav-link p-md-0" href="#">OUR STORY</a>
+                                <Link to='/' className="nav-link p-md-0" href="#">OUR STORY</Link>
                             </li>
                             <li className="nav-item px-md-4">
-                                <a className="nav-link py-2 p-md-0" href="#">TIMELINE</a>
+                                <Link to='/' className="nav-link py-2 p-md-0" href="#">TIMELINE</Link>
                             </li>
                             <li className="nav-item px-md-4 py-0">
-                                <a className="nav-link py-2 p-md-0" href="#">VENUES</a>
+                                <Link to='/' className="nav-link py-2 p-md-0" href="#">VENUES</Link>
                             </li>
                             <li className="nav-item px-md-4 py-0">
-                                <a className="nav-link py-2 p-md-0" href="#">EXPLORE</a>
+                                <Link to='/' className="nav-link py-2 p-md-0" href="#">EXPLORE</Link>
                             </li>
                             <li className="nav-item last px-md-4">
-                                <a className="nav-link py-2 p-md-0" href="#">DRESSS CODE</a>
+                                <Link to='/' className="nav-link py-2 p-md-0" href="#">DRESSS CODE</Link>
                             </li>
                             <li className="nav-item last px-md-4">
-                                <a className="nav-link py-2 p-md-0" href="#"><iconify-icon icon="material-symbols:share-outline"></iconify-icon></a>
+                                <Link to='/' className="nav-link py-2 p-md-0" href="#"><iconify-icon icon="material-symbols:share-outline"></iconify-icon></Link>
                             </li>
                         </ul>
                         <div className="d-flex">

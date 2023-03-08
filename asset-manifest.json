@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tahiawedsaalif/static/css/main.0c4eb5de.css",
+    "main.js": "/tahiawedsaalif/static/js/main.02e77d6d.js",
+    "static/js/787.7cd12029.chunk.js": "/tahiawedsaalif/static/js/787.7cd12029.chunk.js",
+    "static/media/auth-bg-01.jpg": "/tahiawedsaalif/static/media/auth-bg-01.cf9303a2ed8c1ef43d16.jpg",
+    "static/media/home-bg-01.jpg": "/tahiawedsaalif/static/media/home-bg-01.813a26909143fefe1192.jpg",
+    "static/media/onze.jpeg": "/tahiawedsaalif/static/media/onze.4f63b2ba3b81e50bdafa.jpeg",
+    "static/media/story-bg.jpg": "/tahiawedsaalif/static/media/story-bg.c550ab0bca8789bdc881.jpg",
+    "static/media/louvre.webp": "/tahiawedsaalif/static/media/louvre.ff28415385ae4a1fad20.webp",
+    "static/media/hyatt.jpg": "/tahiawedsaalif/static/media/hyatt.c11812f14a88243f02fe.jpg",
+    "static/media/miracle-garden.jpg": "/tahiawedsaalif/static/media/miracle-garden.cb565fcb09446d560e03.jpg",
+    "static/media/burj-khalifa.jpg": "/tahiawedsaalif/static/media/burj-khalifa.c8d26d4af68f25284c08.jpg",
+    "index.html": "/tahiawedsaalif/index.html",
+    "main.0c4eb5de.css.map": "/tahiawedsaalif/static/css/main.0c4eb5de.css.map",
+    "main.02e77d6d.js.map": "/tahiawedsaalif/static/js/main.02e77d6d.js.map",
+    "787.7cd12029.chunk.js.map": "/tahiawedsaalif/static/js/787.7cd12029.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c4eb5de.css",
+    "static/js/main.02e77d6d.js"
+  ]
+}
